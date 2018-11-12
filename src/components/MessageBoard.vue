@@ -1,7 +1,9 @@
 <template>
-    <div>
-        <div v-for="msg in messageList" :key=msg.postId>
-            <p>{{ msg.body }}</p>
+    <div class="col s12 l4" >
+        <div class="message-container white-text hoverable" :style="{ backgroundColor: `${msg.color}` }" v-for="msg in messageList" :key=msg.postId>
+            <div class="left-align"><i class="medium material-icons">format_quote</i></div>
+            <p :style="{ marginTop: '0'}">{{ msg.body }}</p>
+            <h6 class="left-align">- {{msg.author}} </h6>
         </div>
     </div>
     
@@ -15,6 +17,7 @@ export default {
             default: () => [
                 {
                     postId: 1,
+                    color: '#283593',
                     author: "Reggie Y",
                     body: 
                         `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -30,5 +33,13 @@ export default {
 }
 </script>
 <style scoped>
+ .message-board-container {
 
+ }
+
+ .message-container {
+     border-radius: 5px;
+     padding: 0.5em;
+     margin-bottom: 0.5em;
+ }
 </style>
