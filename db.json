@@ -9,13 +9,12 @@
       { "id": 6, "img": "json-server", "name": "Zack", "designation": "Developer", "status": "Available", "performance": "100" }
     ],
     "MessageList": [
-      { "postId": 1, "author": "Reggie Y", "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." },
-      { "postId": 2, "author": "John Smith", "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." },
-      { "postId": 3, "author": "Emily Smith", "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." }
+      { "postId": 1, "color": "#283593", "author": "Reggie Y", "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in " },
+      { "postId": 2, "color": "#9c27b0", "author": "Emily Smith", "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in " }
     ],
     "GaugeList": [
         { "title": "Projects", "gaugeData": 75, "preloaderData": 23, "increasePercentage": 67, "mainColor": "#1198FF" },
-        { "title": "Clients", "gaugeData": 45, "preloaderData": 45, "increasePercentage": 84, "mainColor": "#FF5920" },
+        { "title": "Clients", "gaugeData": 48, "preloaderData": 45, "increasePercentage": 84, "mainColor": "#FF5920" },
         { "title": "Employee", "gaugeData": 93, "preloaderData": 68, "increasePercentage": 43, "mainColor": "#01B887" },
         { "title": "Task", "gaugeData": 23, "preloaderData": 36, "increasePercentage": 57, "mainColor": "purple" }
     ],
