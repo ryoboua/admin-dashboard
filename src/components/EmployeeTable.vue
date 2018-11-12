@@ -1,5 +1,5 @@
 <template>
-    <div class="col s12 l8 white table-container">
+    <div class="col s12 l8 white table-container z-depth-2">
         <h5 class="left-align pl-1">Employee List</h5>
         <div class="divider"></div>
         <collapse :selected="true">
