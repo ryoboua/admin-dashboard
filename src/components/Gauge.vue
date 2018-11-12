@@ -1,5 +1,5 @@
 <template>
-      <div class="gauge-container z-depth-2 hoverable">
+      <div class="gauge-container z-depth-2 hoverable white">
             <div class="radial-progress-container">
                 <radial-progress-bar 
                         :completed-steps="gaugeData"
@@ -10,7 +10,7 @@
                         :innerStrokeColor="innerStrokeColor"
                         :total-steps=100
                     >
-                <p>{{ gaugeData }}</p>
+                <p :style="{ color: `${mainColor}` }">{{ gaugeData }}</p>
             </radial-progress-bar>
             </div>
             <div class="left-align info-container">
