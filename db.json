@@ -1,17 +1,17 @@
 {
     "EmployeeList": [
-      { "id": 0, "img": "json-server", "name": "typicode", "designtion": "", "Status": "", "performance": "" },
-      { "id": 1, "img": "json-server", "name": "typicode", "designtion": "", "Status": "", "performance": "" },
-      { "id": 2, "img": "json-server", "name": "typicode", "designtion": "", "Status": "", "performance": "" },
-      { "id": 3, "img": "json-server", "name": "typicode", "designtion": "", "Status": "", "performance": "" },
-      { "id": 4, "img": "json-server", "name": "typicode", "designtion": "", "Status": "", "performance": "" },
-      { "id": 5, "img": "json-server", "name": "typicode", "designtion": "", "Status": "", "performance": "" },
-      { "id": 6, "img": "json-server", "name": "typicode", "designtion": "", "Status": "", "performance": "" }
+      { "id": 0, "img": "json-server", "name": "Reggie", "designation": "Developer", "status": "Available", "performance": "100" },
+      { "id": 1, "img": "json-server", "name": "Anthony Davie", "designation": "Designer", "status": "Break", "performance": "65" },
+      { "id": 2, "img": "json-server", "name": "David Perry", "designation": "Manager", "status": "Leave", "performance": "0" },
+      { "id": 3, "img": "json-server", "name": "Alan Gilchrist", "designation": "Tester", "status": "Resigned", "performance": "0" },
+      { "id": 4, "img": "json-server", "name": "Mike", "designation": "Developer", "status": "Available", "performance": "100" },
+      { "id": 5, "img": "json-server", "name": "Daniel", "designation": "Developer", "status": "Available", "performance": "100" },
+      { "id": 6, "img": "json-server", "name": "Zack", "designation": "Developer", "status": "Available", "performance": "100" }
     ],
     "MessageList": [
       { "postId": 1, "author": "Reggie Y", "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." },
-      { "postId": 1, "author": "John Smith", "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." },
-      { "postId": 1, "author": "Emily Smith", "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." }
+      { "postId": 2, "author": "John Smith", "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." },
+      { "postId": 3, "author": "Emily Smith", "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." }
     ],
     "GaugeList": [
         { "title": "Projects", "gaugeData": 75, "preloaderData": 23, "increasePercentage": 67, "mainColor": "#1198FF" },
