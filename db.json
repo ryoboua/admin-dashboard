@@ -16,7 +16,8 @@
         { "title": "Projects", "gaugeData": 75, "preloaderData": 23, "increasePercentage": 67, "mainColor": "#1198FF" },
         { "title": "Clients", "gaugeData": 48, "preloaderData": 45, "increasePercentage": 84, "mainColor": "#FF5920" },
         { "title": "Employee", "gaugeData": 93, "preloaderData": 68, "increasePercentage": 43, "mainColor": "#01B887" },
-        { "title": "Task", "gaugeData": 23, "preloaderData": 36, "increasePercentage": 57, "mainColor": "purple" }
+        { "title": "Task", "gaugeData": 23, "preloaderData": 36, "increasePercentage": 57, "mainColor": "purple" },
+        { "title": "Budget", "gaugeData": 52, "preloaderData": 86, "increasePercentage": 47, "mainColor": "yellow" }
     ],
     "AdminInfo": {
         "name": "Reggie",
