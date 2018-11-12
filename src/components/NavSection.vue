@@ -1,5 +1,5 @@
 <template>
-    <div class="nav-section-container" >
+    <div class="nav-section-container grey lighten-3" >
       <div class="nav-wrapper black-text">
         <div class="left-align black-text">
           <a href="#!" class="breadcrumb black-text">
