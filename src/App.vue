@@ -6,20 +6,22 @@
           <Gauge v-for="(gauge, index) in gaugeList" v-bind=gauge :key=index />
       </div>
     </section>
-    <section>
-      <employee-table :employeeList=employeeList />
-    </section>
-    <section>
-      <message-board :messageList=messageList />
+    <section class="section-container" >
+      <div class="row">
+        <employee-table :employeeList=employeeList />
+        <message-board :messageList=messageList />
+      </div>
     </section>
   </div>
 </template>
 
 <script>
+
   import Gauge from './components/Gauge'
   import NavSection from './components/NavSection'
   import EmployeeTable from './components/EmployeeTable'
   import MessageBoard from './components/MessageBoard'
+
 
   export default {
     name: 'App',
@@ -42,6 +44,7 @@
       this.fetchAdminInfo()
       this.fetchEmployeeList()
       this.fetchMessageList()
+
     },
     methods: {
       fetchGaugeList() {
@@ -75,6 +78,7 @@
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
+    background-color: #eeeeee;
   }
 
   .gauge-list-wrapper {
@@ -82,5 +86,9 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 10px;
+  }
+
+  .section-container {
+    margin: 0 2.5em;
   }
 </style>
