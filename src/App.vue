@@ -2,10 +2,13 @@
   <div id="app">
     <nav-section v-bind=adminInfo />
     <section>
-      <div class="gauge-list-wrapper">
-          <Gauge v-for="(gauge, index) in gaugeList" v-bind=gauge :key=index />
-      </div>
+          <GaugeCarousel :gaugeList=gaugeList />
     </section>
+    <!-- <section>
+      <div class="gauge-list-wrapper">
+          <Gauge v-for="(gauge, index) in gaugeList" :key=index v-bind=gauge />
+      </div>
+    </section> -->
     <section class="section-container" >
       <div class="row">
         <employee-table :employeeList=employeeList />
@@ -21,6 +24,7 @@
   import NavSection from './components/NavSection'
   import EmployeeTable from './components/EmployeeTable'
   import MessageBoard from './components/MessageBoard'
+  import GaugeCarousel from './components/GaugeCarousel'
 
 
   export default {
@@ -38,6 +42,7 @@
       Gauge,
       EmployeeTable,
       MessageBoard,
+      GaugeCarousel,
     },
     created(){
       this.fetchGaugeList()
@@ -70,7 +75,6 @@
     }
   }
 </script>
-
 <style>
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
