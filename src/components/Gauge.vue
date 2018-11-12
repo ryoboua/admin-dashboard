@@ -69,7 +69,7 @@ export default {
         padding: 1em;
         display: flex;
         flex-wrap: nowrap;
-        margin: 25px;
+        margin: 25px auto;
         border-radius: 25px;
         width: 300px;
     }
