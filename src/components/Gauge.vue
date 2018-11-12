@@ -5,10 +5,11 @@
                         :completed-steps="gaugeData"
                         :startColor="mainColor"
                         :stopColor="mainColor"
-                        diameter=70
-                        strokeWidth=5
-                        innerStrokeColor="#F3F4F4"
-                        total-steps=100>
+                        :diameter="diameter"
+                        :strokeWidth="strokeWidth"
+                        :innerStrokeColor="innerStrokeColor"
+                        :total-steps=100
+                    >
                 <p>{{ gaugeData }}</p>
             </radial-progress-bar>
             </div>
@@ -27,6 +28,14 @@ import RadialProgressBar from 'vue-radial-progress'
 
 export default {
     name: 'Gauge',
+    data() {
+        return {
+            diameter: 70,
+            strokeWidth: 5,
+            innerStrokeColor: '#F3F4F4',
+            totalSteps: 100
+        }
+    },
     props: {
         title: {
             type: String,
