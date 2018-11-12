@@ -1,6 +1,6 @@
 <template>
     <div class="col s12 l4" >
-        <div class="message-container white-text hoverable" :style="{ backgroundColor: `${msg.color}` }" v-for="msg in messageList" :key=msg.postId>
+        <div class="message-container white-text hoverable z-depth-2" :style="{ backgroundColor: `${msg.color}` }" v-for="msg in messageList" :key=msg.postId>
             <div class="left-align"><i class="medium material-icons">format_quote</i></div>
             <p :style="{ marginTop: '0'}">{{ msg.body }}</p>
             <h6 class="left-align">- {{msg.author}} </h6>
@@ -33,10 +33,6 @@ export default {
 }
 </script>
 <style scoped>
- .message-board-container {
-
- }
-
  .message-container {
      border-radius: 5px;
      padding: 0.5em;
