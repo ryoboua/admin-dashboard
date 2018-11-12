@@ -12,6 +12,7 @@
   "dependencies": {
     "babel-preset-es2015": "^6.24.1",
     "vue": "^2.5.2",
+    "vue-carousel": "^0.16.0-rc2",
     "vue-radial-progress": "^0.2.10"
   },
   "devDependencies": {
