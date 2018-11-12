@@ -59,17 +59,14 @@ export default {
         display: flex;
         width: 100%;
     }
-
     .home-icon {
         margin: 15px 1em 0em;
     }
-
     .admin-total-wrapper {
         line-height: 0px;
         display: flex;
         margin: 13px 1em 0px auto
     }
-
     .mr {
         margin-right: 1em;
     }
