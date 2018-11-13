@@ -1,4 +1,4 @@
-# firstvueapp
+# Admin Dashboard
 
 > A Vue.js project
 
