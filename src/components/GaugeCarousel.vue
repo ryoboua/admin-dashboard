@@ -1,5 +1,6 @@
 <template>
-  <Carousel 
+  <Carousel
+  class="col s12 l8" 
   :perPage=perPage()
   :paginationEnabled=true
   :paginationActiveColor=paginationActiveColor
@@ -33,11 +34,7 @@ export default {
       paginationColor: 'black',
       screenWidth: null,
       perPage(){
-        if(this.screenWidth > 1200){
-          return 4
-        } else if (this.screenWidth > 993) {
-          return 3
-        } else if (this.screenWidth > 600) {
+        if(this.screenWidth > 600){
           return 2
         } else {
           return 1
