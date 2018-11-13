@@ -1,6 +1,6 @@
 <template>
     <div class="col s12 l8 white table-container z-depth-2">
-        <h5 class="left-align pl-1">Employee List</h5>
+        <h5 class="left-align pl-1"><strong>Employee</strong> List</h5>
         <div class="divider"></div>
         <collapse :selected="true">
             <div slot="collapse-body">
@@ -16,10 +16,10 @@
                 </thead>
                 <tbody>
                 <tr v-for="e in employeeList" :key=e.id>
-                    <td>{{ e.name }}</td>
+                    <td><img class="circle" :src="e.img" :alt="e.name"></td>
                     <td>{{ e.name }}</td>
                     <td>{{ e.designation }}</td>
-                    <td>{{ e.status }}</td>
+                    <td :style="{ color: `${getStatusColor(e.status)}` }" >{{ e.status }}</td>
                     <td>{{ e.performance }}</td>
                 </tr>
                 </tbody>
@@ -53,15 +53,34 @@
         components: {
             Collapse
         },
+        methods: {
+            getStatusColor(status){
+                switch(status) {
+                    case 'Available':
+                    return 'green'
+                    break
+                    case 'Break':
+                    return 'purple'
+                    break
+                    case 'Leave':
+                    return 'Orange'
+                    break
+                    case 'Resigned':
+                    return 'red'
+                    break
+                    default:
+                    return 'black'
+                }
+            }
+        }
         
     }
 </script>
 <style scoped>
  .table-container {
-     border-radius: 5px;
-     padding: 1em 0;
-    margin-bottom: 0.5em;
-
+    border-radius: 5px;
+    padding: 1em 0;
+    margin-bottom: 1rem;
 }
 .pl-1 {
     padding-left: 1.6%;
