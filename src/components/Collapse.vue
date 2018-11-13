@@ -22,7 +22,7 @@
   -o-transition: all .2s;
   -webkit-transition: all .2s;
   transition: all .2s;
-  content: url('../arrow-down.svg');
+  content: url('../assets/arrow-down.svg');
   position: absolute;
   font-size: 0.4em;
   top: calc(50% - 0.4em);
@@ -41,16 +41,23 @@
   transform: rotate(180deg);
 }
 .collapse .collapse-content-box {
-  -moz-transition: all .2s;
-  -o-transition: all .2s;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  -moz-transition: all 2s;
+  -o-transition: all 2s;
+  -webkit-transition: all 2s;
+  transition: all 8s;
   padding: 30px 40px;
   border-left: 2px solid #ffffff;
   border-bottom: 2px solid #ffffff;
   border-right: 2px solid #ffffff;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 
 </style>
@@ -64,9 +71,9 @@
         </div>
       </div>
     </transition>
-    <div class="collapse-header touchable" role="tab" :aria-expanded="active ? 'true' : 'false'" @click.prevent="toggle">
-      <slot name="collapse-header"></slot>
-    </div>
+      <div class="collapse-header touchable" role="tab" :aria-expanded="active ? 'true' : 'false'" @click.prevent="toggle">
+        <slot name="collapse-header"></slot>
+      </div>
   </div>
 </template>
 
