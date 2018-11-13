@@ -1,30 +1,32 @@
 {
     "EmployeeList": [
-      { "id": 0, "img": "json-server", "name": "Reggie", "designation": "Developer", "status": "Available", "performance": "100" },
-      { "id": 1, "img": "json-server", "name": "Anthony Davie", "designation": "Designer", "status": "Break", "performance": "65" },
-      { "id": 2, "img": "json-server", "name": "David Perry", "designation": "Manager", "status": "Leave", "performance": "0" },
-      { "id": 3, "img": "json-server", "name": "Alan Gilchrist", "designation": "Tester", "status": "Resigned", "performance": "0" },
-      { "id": 4, "img": "json-server", "name": "Mike", "designation": "Developer", "status": "Available", "performance": "100" },
-      { "id": 5, "img": "json-server", "name": "Daniel", "designation": "Developer", "status": "Available", "performance": "100" },
-      { "id": 6, "img": "json-server", "name": "Zack", "designation": "Developer", "status": "Available", "performance": "100" }
+      { "id": 0, "img": "https://api.adorable.io/avatars/45/123.png", "name": "Reggie", "designation": "Developer", "status": "Available", "performance": "100" },
+      { "id": 1, "img": "https://api.adorable.io/avatars/45/sdr.png", "name": "Anthony Davie", "designation": "Designer", "status": "Break", "performance": "65" },
+      { "id": 2, "img": "https://api.adorable.io/avatars/45/fdd.png", "name": "David Perry", "designation": "Manager", "status": "Leave", "performance": "0" },
+      { "id": 3, "img": "https://api.adorable.io/avatars/45/xcv.png", "name": "Alan Gilchrist", "designation": "Tester", "status": "Resigned", "performance": "0" },
+      { "id": 4, "img": "https://api.adorable.io/avatars/45/dsf.png", "name": "Mike", "designation": "Developer", "status": "Available", "performance": "100" },
+      { "id": 5, "img": "https://api.adorable.io/avatars/45/xcv.png", "name": "Daniel", "designation": "Developer", "status": "Available", "performance": "100" },
+      { "id": 6, "img": "https://api.adorable.io/avatars/45/dfg.png", "name": "Zack", "designation": "Developer", "status": "Available", "performance": "100" }
     ],
     "MessageList": [
       { "postId": 1, "color": "#283593", "author": "Reggie Y", "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in " },
-      { "postId": 2, "color": "#9c27b0", "author": "Emily Smith", "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in " }
+      { "postId": 2, "color": "#9c27b0", "author": "Emily Smith", "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in " },
+      { "postId": 3, "color": "#e65100", "author": "David Wallace", "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in " }
     ],
     "GaugeList": [
         { "title": "Projects", "gaugeData": 75, "preloaderData": 23, "increasePercentage": 67, "mainColor": "#1198FF" },
         { "title": "Clients", "gaugeData": 48, "preloaderData": 45, "increasePercentage": 84, "mainColor": "#FF5920" },
         { "title": "Employee", "gaugeData": 93, "preloaderData": 68, "increasePercentage": 43, "mainColor": "#01B887" },
         { "title": "Task", "gaugeData": 23, "preloaderData": 36, "increasePercentage": 57, "mainColor": "purple" },
-        { "title": "Budget", "gaugeData": 52, "preloaderData": 86, "increasePercentage": 47, "mainColor": "yellow" }
+        { "title": "Budget", "gaugeData": 52, "preloaderData": 86, "increasePercentage": 47, "mainColor": "black" }
     ],
     "AdminInfo": {
         "name": "Reggie",
-        "imgURL": "",
+        "imgURL": "https://api.adorable.io/avatars/45/fwf.png",
         "totalIncome": 87000,
-        "newUsers": 200,
-        "notification": 3,
-        "messages": 5
+        "activeUsers": 200,
+        "notification": 10,
+        "messages": 5,
+        "tableData": [1, 2, 5, 9, 5, 10, 3, 5, 2, 5, 1, 8, 2, 9, 0]
     }
   }
